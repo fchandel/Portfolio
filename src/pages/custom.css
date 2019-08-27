@@ -370,4 +370,20 @@ body {
         text-align-last: left;
         hyphens: auto;
     }
+
+    .to-scew {
+        transform: skew(50deg);
+    }
+
+    .projects {
+        transform: skew(-50deg);
+    }
+
+    .main-font {
+        font-size: 52px;
+    }
+
+    .sub-heading {
+        font-size: 18px !important;
+    }
 }

@@ -50,7 +50,7 @@ class IndexPage extends Component {
                   },
                   line_linked: {
                     "enable": true,
-                    "distance": 150,
+                    "distance": 130,
                     "color": "#5e0005",
                     "opacity": 0.4,
                     "width": 1
@@ -71,8 +71,8 @@ class IndexPage extends Component {
         
               <div className='landing'>
 
-                <h1 className='main-font'>Hi, I'm Farhan Chandel</h1>
-                <p className='sub-heading'><span className=''>Software Developer by trade</span></p>
+                <h1 className='main-font'>Hi, I'm Farhan</h1>
+                <p className='sub-heading'>I believe problems are like puzzles and I enjoy solving them through coding.</p>
 
               </div>
             {/* </ParallaxLayer> */}
