@@ -15,7 +15,7 @@ import Img from 'gatsby-image';
 
 class IndexPage extends Component {
 
-  
+
   render() {
     return (
     <Layout>    
@@ -93,7 +93,7 @@ class IndexPage extends Component {
                         <h4 className='project-title'>
                           Spiker
                         </h4>
-                        <p classname='desc' style={{fontSize: '15px', paddingTop: '10px'}}>A bookkeeping and expense tracking web and mobile application using <b>Sails Js</b>.</p>
+                        <p className='desc' style={{fontSize: '15px', paddingTop: '10px'}}>A bookkeeping and expense tracking web and mobile application using <b>Sails Js</b>.</p>
                         
                         
                       </div>
@@ -108,7 +108,7 @@ class IndexPage extends Component {
                         <h4 className='project-title'>
                           Korecki (Coming Soon)
                         </h4>
-                        <p classname='desc' style={{fontSize: '15px', paddingTop: '10px'}}> CPAS (Client Property Account System) for property management.</p>
+                        <p className='desc' style={{fontSize: '15px', paddingTop: '10px'}}> CPAS (Client Property Account System) for property management.</p>
                        
                       </div>
                     {/* </Link> */}
@@ -120,7 +120,7 @@ class IndexPage extends Component {
                         <h4 className='project-title'>
                           Oral Habilitaion
                         </h4>
-                        <p classname='desc' style={{fontSize: '15px', paddingTop: '10px'}}> A cross platform mobile application to help educate clients</p>
+                        <p className='desc' style={{fontSize: '15px', paddingTop: '10px'}}> A cross platform mobile application to help educate clients</p>
                       </div>
                     </Link>
                   </div> */}
@@ -131,7 +131,7 @@ class IndexPage extends Component {
                         <h4 className='project-title'>
                           Calico Website
                         </h4>
-                        <p classname='desc' style={{fontSize: '15px', paddingTop: '10px'}}> 
+                        <p className='desc' style={{fontSize: '15px', paddingTop: '10px'}}> 
                           Website my Co-Op organization
                         </p>
 
