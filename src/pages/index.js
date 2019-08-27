@@ -8,12 +8,19 @@ import "./custom.css"
 import 'bootstrap/dist/css/bootstrap.css';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
 import '@fortawesome/fontawesome-free/css/all.css'
-
+import $ from 'jquery/dist/jquery.js'
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 class IndexPage extends Component {
 
+  componentDidMount () {
+    $('body').on({
+      'touchmove': function(e) { 
+        $('.scroll-indicator').addClass('display-none');
+      }
+  });
+  }
 
   render() {
     return (
@@ -73,7 +80,7 @@ class IndexPage extends Component {
 
                 <h1 className='main-font'>Hi, I'm Farhan</h1>
                 <p className='sub-heading'>I believe problems are like puzzles and I enjoy solving them through coding.</p>
-
+                <div className='scroll-indicator'></div>
               </div>
             {/* </ParallaxLayer> */}
           {/* </ParallaxLayer> */}
