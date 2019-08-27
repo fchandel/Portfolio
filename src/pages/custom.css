@@ -137,6 +137,7 @@ body {
 
 .project-list {
     display: inline;
+    padding: 0 20px;
 }
 
 .white {
@@ -184,6 +185,10 @@ body {
     padding: 20px;
     background-color: white;
     width: 100%;
+}
+
+.bio {
+    text-align: justify;
 }
 
 .max-width-80 {
@@ -361,4 +366,8 @@ body {
         padding: 0 20px;
     }
 
+    .bio {
+        text-align-last: left;
+        hyphens: auto;
+    }
 }

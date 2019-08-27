@@ -43,13 +43,13 @@ class Spiker extends Component {
 
               <div className='tech-badge-list'>
                 <div className='tech-badge'>
-                  Technology #1
+                  Sails Js
                 </div>
                 <div className='tech-badge'>
-                  Technology #1
+                  AWS Lambda
                 </div>
                 <div className='tech-badge'>
-                  Technology #1
+                  Amazon S3
                 </div>
               </div>
 

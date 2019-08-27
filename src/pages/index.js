@@ -88,7 +88,7 @@ class IndexPage extends Component {
                 <h3 className='heading-title center custom-color'><span className='yellow'>P</span>rojects</h3>
                 <div className='project-list row'>
                   <div className='col-sm-12 col-md-6'>
-                    <Link to="/page-2/">
+                    <Link to="/spiker/">
                       <div className='project-item'>
                         <h4 className='project-title'>
                           Spiker
@@ -150,7 +150,7 @@ class IndexPage extends Component {
               <h3 className='heading-title custom-color'><span className='yellow'>A</span> brief intro</h3>
               <div className='center margin-center col-md-8'>
               <Img className='image float-left' fluid={this.props.data.imageOne.childImageSharp.fluid} />
-              <p className='body-font align-left'>
+              <p className='bio body-font'>
                 Hi, I'm Farhan. I am a Software Developer in the making. I am currently pursuing a Software Systems Degree at Simon Fraser University. <br/><br/>I think of problems like puzzles and enjoy solving them through coding. I learn best by diving into mini projects, making mistakes and then learning from them. <br/><br/> When I'm not busy with school or work you can find me with
                 friends and family or in the gym. When the season comes around, you can also find me in the beautiful mountains of B.C
                 enjoying a strenuous but rewarding hike.
