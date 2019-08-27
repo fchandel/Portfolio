@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Particles from 'react-particles-js'
 import "./custom.css"
 import 'bootstrap/dist/css/bootstrap.css';
-// import {useSpring, animated} from 'react-spring'
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -94,9 +93,7 @@ class IndexPage extends Component {
                         <h4 className='project-title'>
                           Spiker
                         </h4>
-                        <p className='desc' style={{fontSize: '15px', paddingTop: '10px'}}>A bookkeeping and expense tracking web and mobile application using <b>Sails Js</b>.</p>
-                        
-                        
+                        <p className='desc'>A bookkeeping and expense tracking web and mobile application using <b>Sails Js</b>.</p>
                       </div>
                     </Link>
                   </div>
@@ -109,7 +106,7 @@ class IndexPage extends Component {
                         <h4 className='project-title'>
                           Korecki (Coming Soon)
                         </h4>
-                        <p className='desc' style={{fontSize: '15px', paddingTop: '10px'}}> CPAS (Client Property Account System) for property management.</p>
+                        <p className='desc'> CPAS (Client Property Account System) for property management.</p>
                        
                       </div>
                     {/* </Link> */}
@@ -159,17 +156,6 @@ class IndexPage extends Component {
                 enjoying a strenuous but rewarding hike.
                 </p>
               </div>
-              {/* <div className='col-md-4 offset-md-2 col-sm-12 alignRight'>
-                <Img className='image float-right' fluid={this.props.data.imageOne.childImageSharp.fluid} />
-              </div> */}
-              {/* <div  className='col-md-6 col-sm-12 float-right'>
-                <p className='body-font max-width-80 align-left'>
-                Hi, I'm Farhan. I am a Software Developer in the making. I am currently pursuing a Software Systems Degree at Simon Fraser University. <br/><br/>I think of problems like puzzles and enjoy solving them through coding. I learn best by diving into projects and making mistakes and then learning from them. <br/><br/> When I'm not busy with school or work you can find me with
-                friends and family or in the gym. When the season comes around, you can also find me in the beautiful mountains of B.C
-                enjoying a strenuous but rewarding hike.
-                </p>
-              </div> */}
-
             </div>
           </div>
 
@@ -218,7 +204,6 @@ class IndexPage extends Component {
 
 
           <div className='social clear'>
-            {/* background-color */}
             <div className="social-content">
               <h3 className='heading-title center white'>Get In Touch</h3>
               <p className='body-font'>
