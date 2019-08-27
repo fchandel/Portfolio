@@ -302,6 +302,7 @@ body {
 .nav a {
     border-bottom: 1px solid black;
 }
+
 .nav a:hover {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
     background-position: bottom;
@@ -352,4 +353,11 @@ body {
         background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgb(238, 237, 237) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%;
     }
 
+    .landing {
+        padding-top: 50%;
+    }
+
+    .landing h1 {
+        font-size: 52px;
+    }
 }
