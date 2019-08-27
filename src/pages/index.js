@@ -26,6 +26,7 @@ class IndexPage extends Component {
           {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
           
             <Particles
+              className='particles'
               params={{
                 particles: {
                   number: {

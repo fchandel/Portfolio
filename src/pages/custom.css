@@ -2,14 +2,13 @@
     text-align: center;
     padding-top: 40vh;
     color: #5e0005;
-    /* padding-left: 60px; */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-canvas {
     height: 100vh;
 }
-
-
 
 body {
     background-color: #fff !important;
@@ -72,24 +71,20 @@ body {
 .project-item {
     max-width: 450px;
     min-height: 200px;
-    /* height: 300px; */
     color: #5e0005;
     background: rgb(240, 240, 240);
     border-bottom: 4px solid #eccf26 ;
-    /* border-right: 4px solid #5e0005 ; */
-    /* background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(235, 235, 235) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%; */
-    /* margin: 10px; */
     padding: 40px !important;
     text-align: center;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin: 0 auto;
     margin-bottom: 40px;
-    /* margin: 40px; */
     transition: top ease 0.3s;
     position: relative;
     top: 0;
 }
+
 .clear {
     clear: both;
 }
@@ -101,10 +96,10 @@ body {
 .float-right {
     float: right;
 }
+
 .image {
     width: 300px;
     height: 350px;
-    /* float: left; */
     margin-right: 30px;
     margin-bottom: 30px;
     border-radius: 90%;
@@ -124,15 +119,6 @@ body {
     top: -10px;
 }
 
-/* .hide { 
-    display: none !important;
-} */
-
-.project-title {
-    /* padding-top: 90px; */
-    /* padding: 40px; */
-}
-
 .orange {
     background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(212, 20, 90) 0%, rgb(251, 176, 59) 100%) repeat scroll 0% 0%;
 }
@@ -149,13 +135,8 @@ body {
 
 }
 
-
-
 .project-list {
-    /* padding-top: 80px; */
     display: inline;
-    /* max-width: 80%; */
-    /* margin: 0 auto; */
 }
 
 .white {
@@ -170,7 +151,6 @@ body {
 
 .social {
     padding-top: 50px;
-    /* background-color: #5e0005; */
     background: -webkit-linear-gradient(70deg, #5e0005 50%, #fdfdfd 50%);
     min-height: 500px;
     position: relative;
@@ -183,6 +163,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 20px;
     left: 0;
     right: 0;
 
@@ -193,15 +174,14 @@ body {
     padding-top: 0px !important;
 }
 
-.description {
-    /* max-width: 60%; */
-    text-align: center;
-    /* float: right; */
-    margin: 0 auto;
-    /* background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(218, 217, 217) 0%, rgb(251, 176, 59) 100%) repeat scroll 0% 0%; */
-    padding: 20px;
-    /* background-image: -webkit-linear-gradient(0deg, #5e0005 50%, #fdfdfd 50%); */
+.social a {
+    color: yellow !important;
+}
 
+.description {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
     background-color: white;
     width: 100%;
 }
@@ -221,25 +201,13 @@ body {
     color: white;
     background-color: #5e0005;
     padding-bottom: 30px; 
-}
-
-
-.social a {
-    color: yellow !important;
-    /* border-bottom: 1px solid #eccf26; */
-
-    /* border-bottom: 1px solid yellow; */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .contact a {
     color: yellow !important;
-    /* border-bottom: 1px solid #eccf26; */
-
-    /* border-bottom: 1px solid yellow; */
 }
-
-
-
 
 .project-intro-details {
     margin: 0;
@@ -252,13 +220,9 @@ body {
 .project-main {
     height: 100vh;
     background-color: white;
-    /* line-height: 40vh; */
     box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 10px 0px;
     color: #242222;
-    /* background-image: url('../images/spiker.png') */
-
 }
-
 
 .spiker .heading-title {
     padding: 10px;
@@ -269,7 +233,6 @@ body {
     margin: 0 auto;
     border-left: 2px solid black; 
 }
-
 
 .project-description {
     margin: 0 auto;
@@ -282,7 +245,6 @@ body {
     padding: 20px;
     position: absolute;
     padding-left: 20px !important;
-
 }
 
 .p-50 {
@@ -301,8 +263,6 @@ body {
     padding-top: 0px !important;
     padding-bottom: 5px;
 }
-
-
 
 .tech-badge {
     margin: 10px;
@@ -356,17 +316,12 @@ body {
     text-decoration: none !important;
 }
 
-.background-image {
-    /* position: absolute; */
-}
-
 .floating-nav {
     transition: ease 0.6s;
     position: fixed;
     background-color: #eccf26;
     border-radius: 0 0 10px 0;
 }
-
 
 .skill-section {
     padding-left: 20px;
@@ -387,6 +342,14 @@ body {
         padding-top: 20px;
         text-align: center;
         border: none;
+    }
+
+    .particles {
+        display: none;
+    }
+
+    .main-canvas {
+        background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgb(238, 237, 237) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%;
     }
 
 }
