@@ -357,4 +357,8 @@ body {
         padding-top: 50%;
     }
 
+    .project-intro-details {
+        padding: 0 20px;
+    }
+
 }
