@@ -59,14 +59,14 @@ class IndexPage extends Component {
                     "enable": true,
                     "distance": 130,
                     "color": "#5e0005",
-                    "opacity": 0.4,
+                    "opacity": 0.3,
                     "width": 1
                   },
                 },
               }}
               style={{
                 width: '100%',
-                // backgroundColor: `white` ,
+                // backgroundColor: `#0E0B16` ,
                 background: "rgba(0, 0, 0, 0) linear-gradient(to bottom, rgb(238, 237, 237) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%",
                 position: 'absolute',
                 zIndex: '-1',
@@ -76,9 +76,9 @@ class IndexPage extends Component {
             />  
             {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
         
-              <div className='landing'>
+              <div className='landing main-color'>
 
-                <h1 className='main-font'>Hi, I'm Farhan</h1>
+                <h1 className='main-font main-color'>Hi, I'm Farhan</h1>
                 <p className='sub-heading'>I believe problems are like puzzles and I enjoy solving them through coding.</p>
                 <div className='scroll-indicator'></div>
               </div>
@@ -87,16 +87,15 @@ class IndexPage extends Component {
         </div>
 
         {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
+        <h3 className='heading-title pb-0 center main-color p-100'><span className='accent-1'>P</span>rojects</h3>
+          <div className='to-scew main-color-bg'>
 
-          <div className='to-scew'>
             <div className='projects' >
               {/* <ParallaxLayer offset={0} speed={0.5} style={{ opacity: 1 }}> */}
-
-                <h3 className='heading-title center custom-color'><span className='yellow'>P</span>rojects</h3>
                 <div className='project-list row'>
                   <div className='col-sm-12 col-md-6'>
                     <Link to="/spiker/">
-                      <div className='project-item'>
+                      <div className='project-item main-color'>
                         <h4 className='project-title'>
                           Spiker
                         </h4>
@@ -109,7 +108,7 @@ class IndexPage extends Component {
             
                   <div className='col-sm-12 col-md-6'>
                     {/* <Link to="/"> */}
-                      <div className='project-item'>
+                      <div className='project-item main-color'>
                         <h4 className='project-title'>
                           Korecki (Coming Soon)
                         </h4>
@@ -154,7 +153,7 @@ class IndexPage extends Component {
 
           <div>
             <div className='description'>
-              <h3 className='heading-title custom-color'><span className='yellow'>A</span> brief intro</h3>
+              <h3 className='heading-title main-color'><span className='accent-1'>A</span> brief intro</h3>
               <div className='center margin-center col-md-8'>
               <Img className='image float-left' fluid={this.props.data.imageOne.childImageSharp.fluid} />
               <p className='bio body-font'>
@@ -167,7 +166,7 @@ class IndexPage extends Component {
           </div>
 
           <div className='skill-section center p-100 '>
-            <h3 className='heading-title custom-color'><span className='yellow'>L</span>anguages & Frameworks I've worked with</h3>
+            <h3 className='heading-title main-color'><span className='accent-1'>L</span>anguages & Frameworks I've worked with</h3>
             <div className='tech-badge-list'>
               <div className='tech-badge'>
                 <b>React Js</b>

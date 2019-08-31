@@ -30,11 +30,11 @@ class Spiker extends Component {
  
           <div className='project-main'>
             <div className='project-intro-details'>
-              <h3 className='heading-title center custom-color'>
+              <h3 className='heading-title center main-color'>
                 Spiker
               </h3>
 
-              <div className='project-description-main col-md-6 col-sm-12'>
+              <div className='project-description-main main-color col-md-6 col-sm-12'>
                 <p className='sub-heading'>
                   <a href="https://spikerapp.com/">Spiker</a> is a subscription based web and mobile application that is meant to help 
                   users bookkeep, track their finances and help them save time and money.
@@ -57,31 +57,35 @@ class Spiker extends Component {
             
           </div>
 
-        <div className='project-description center p-50'>
-          <h3 className='center heading-title white'><span className='yellow'>O</span>verview</h3>
-          <p className='max-width-80 p-10 align-left'><i>As this is an active and private software which I worked on during my coop, I am unable to talk about some details. However you can feel free to ask me for my refrences where I can
-          re-direct you to my supervisor on the project who can help give you an insight to my performance.</i>
-          <br/><br/>
-          During the final months of coop, I was tasked to work on Spiker.
-          Spiker was a live project but outdated and needed updating and some TLC.
+        <div className='project-description main-color-bg center p-50'>
+          <div className='max-width-1200'>
 
-          My responsibilites included (but not limited to):
-          <br/>
-          <br/>
-          <ul>
-            <li>Performing a major version upgrade</li>
-            <li>Integrating AWS Lambda</li>
-            <li>Refactoring</li>
-            <li>Updating Unit Tests, implementing new ones</li>
-            <li>Fixing reported bugs</li>
-          </ul> 
-          <br/>
-          Working on Sails Js was a new experience and upgrading the app's version to V1.0 from it's previous versions was a bit challenging; due to its many breaking changes. I was responsible for fixing the many breaking changes along with a colleague, finding and integrating new libraries to replace outdated ones, refactoring code and fixing unit tests to align with the new changes.
-          After the upgrade, I (along with a colleague) worked with AWS Lamda and Amazon s3 to build out certain functionalities of the software. That was a fun experience where I learned a lot about AWS services and S3 buckets. 
-          <br/><br/>
-          You can check out the live website <a classnName='alt-link' href="https://spikerapp.com/"><b>here</b></a>
-          <br/><br/>
-          </p>
+            <h3 className='center heading-title white'><span className='yellow'>O</span>verview</h3>
+            <p className='max-width-80 p-10 align-left'><i>As this is an active and private software which I worked on during my coop, I am unable to talk about some details. However you can feel free to ask me for my refrences where I can
+            re-direct you to my supervisor on the project who can help give you an insight to my performance.</i>
+            <br/><br/>
+            During the final months of coop, I was tasked to work on Spiker.
+            Spiker was a live project but outdated and needed updating and some TLC.
+
+            My responsibilites included (but not limited to):
+            <br/>
+            <br/>
+            <ul>
+              <li>Performing a major version upgrade</li>
+              <li>Integrating AWS Lambda</li>
+              <li>Refactoring</li>
+              <li>Updating Unit Tests, implementing new ones</li>
+              <li>Fixing reported bugs</li>
+            </ul> 
+            <br/>
+            Working on Sails Js was a new experience and upgrading the app's version to V1.0 from it's previous versions was a bit challenging; due to its many breaking changes. I was responsible for fixing the many breaking changes along with a colleague, finding and integrating new libraries to replace outdated ones, refactoring code and fixing unit tests to align with the new changes.
+            After the upgrade, I (along with a colleague) worked with AWS Lamda and Amazon s3 to build out certain functionalities of the software. That was a fun experience where I learned a lot about AWS services and S3 buckets. 
+            <br/><br/>
+            You can check out the live website <a classnName='alt-link' href="https://spikerapp.com/"><b>here</b></a>
+            <br/><br/>
+            </p>
+            </div>
+
         </div>
 
       </div>
