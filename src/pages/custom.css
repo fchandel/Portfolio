@@ -53,7 +53,7 @@ body {
 }
 
 .to-scew {
-    background-color: #5e0005 !important;
+    background-color: #5e0005;
     transform: skew(80deg);
 }
 
@@ -371,14 +371,18 @@ body {
     
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1700px) {
     .social {
-        background: -webkit-linear-gradient(90deg, #5e0005 50%, #fff 50%);
+        background: -webkit-linear-gradient(80deg, #5e0005 50%, #fafafa 50%);
     }
 
     .to-scew {
-    background-color: white !important;
-    transform: none;
+        background-color: #fafafa !important;
+        transform: none;
+    }
+
+    .large-desktop {
+        background-color: #fafafa !important;
     }
 
     .projects {

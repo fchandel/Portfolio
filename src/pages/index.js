@@ -19,7 +19,7 @@ class IndexPage extends Component {
       'touchmove': function(e) { 
         $('.scroll-indicator').addClass('display-none');
       }
-  });
+    });
   }
 
   render() {
@@ -87,7 +87,8 @@ class IndexPage extends Component {
         </div>
 
         {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
-        <h3 className='heading-title pb-0 center main-color p-100'><span className='accent-1'>P</span>rojects</h3>
+        <div className='large-desktop'>
+          <h3 className='heading-title pb-0 center main-color p-100'><span className='accent-1'>P</span>rojects</h3>
           <div className='to-scew main-color-bg'>
 
             <div className='projects' >
@@ -150,6 +151,8 @@ class IndexPage extends Component {
 
         
           </div>
+        </div>
+
 
           <div>
             <div className='description'>
@@ -165,7 +168,7 @@ class IndexPage extends Component {
             </div>
           </div>
 
-          <div className='skill-section center p-100 '>
+          <div className='skill-section large-desktop center p-100 '>
             <h3 className='heading-title main-color'><span className='accent-1'>L</span>anguages & Frameworks I've worked with</h3>
             <div className='tech-badge-list'>
               <div className='tech-badge'>
