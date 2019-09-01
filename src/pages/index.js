@@ -154,7 +154,7 @@ class IndexPage extends Component {
         </div>
 
 
-          <div>
+          <div className='description-container'>
             <div className='description'>
               <h3 className='heading-title main-color'><span className='accent-1'>A</span> brief intro</h3>
               <div className='center margin-center col-md-8'>
@@ -171,6 +171,8 @@ class IndexPage extends Component {
           <div className='skill-section large-desktop center p-100 '>
             <h3 className='heading-title main-color'><span className='accent-1'>L</span>anguages & Frameworks I've worked with</h3>
             <div className='tech-badge-list'>
+              <row className='tech-badge-list-row'>
+
               <div className='tech-badge'>
                 <b>React Js</b>
               </div>
@@ -189,7 +191,10 @@ class IndexPage extends Component {
               <div className='tech-badge'>
                 <b>CakePHP</b>
               </div>
-              <br/>
+              </row>
+
+              <row className='tech-badge-list-row'>
+
               <div className='tech-badge'>
                 <b>Java</b>
               </div>
@@ -208,6 +213,8 @@ class IndexPage extends Component {
               <div className='tech-badge'>
                 <b>Spring Boot</b>
               </div>
+              </row>
+
             </div>
           </div>
 
