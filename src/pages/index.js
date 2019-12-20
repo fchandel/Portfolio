@@ -108,15 +108,15 @@ class IndexPage extends Component {
     
             
                   <div className='col-sm-12 col-md-6'>
-                    {/* <Link to="/"> */}
+                    <Link to="/cradle/">
                       <div className='project-item main-color'>
                         <h4 className='project-title'>
-                          Korecki (Coming Soon)
+                          Cradle
                         </h4>
-                        <p className='desc'> CPAS (Client Property Account System) for property management.</p>
+                        <p className='desc'>Management system built for medical professionals using <b>Spring Boot</b> & <b>ReactJs</b></p>
                        
                       </div>
-                    {/* </Link> */}
+                    </Link>
                   </div>
 
                   {/* <div className='col-sm-12 col-md-6'>

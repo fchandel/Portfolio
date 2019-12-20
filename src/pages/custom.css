@@ -21,6 +21,56 @@
     padding-right: 20px;
 }
 
+.process-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 40px;
+}
+
+.item-process {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    /* justify-self: center; */
+
+}
+
+.item-image-process {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 1fr;
+}
+
+.item-overview {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 60px;
+    justify-self: center;
+}
+
+.item-tools {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-right: 30px;
+    /* max-width: 200px; */
+    justify-self: center;
+}
+
+
+.background-section {
+    background-color: #FAFAFA;
+    border-radius: 52px;
+    padding: 40px;
+}
+
+.border-box {
+    padding: 0 10px;
+    border: 2px solid white;
+}
 .main-canvas {
     height: 100vh;
 }
@@ -30,8 +80,11 @@ body {
     overflow-x: hidden;
 }
 
+
 .main-font, h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Segoe UI';
+    color: #0099FF;
 }
 
 .main-font {
@@ -244,10 +297,18 @@ body {
 }
 
 .project-main {
-    height: 100vh;
+    height: 80vh;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 10px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 10px 0px; */
     color: #242222;
+}
+
+.blue-color {
+    color: #0099ff;
+}
+
+.blue-bg {
+    background: #0099ff;
 }
 
 .spiker .heading-title {
@@ -264,10 +325,22 @@ body {
     margin: 0 auto;
     border-left: 2px solid black; 
     /* background-color: #5e0005; */
-    color: white;
+    color: black;
     padding-top: 100px;
     padding-bottom: 100px;
+}
 
+.cradle-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.cradle .project-description-main {
+    border-left: 2px solid #40A4ED !important; 
+}
+
+.svg-container > svg {
+    display: block;
 }
 
 .nav {
@@ -304,6 +377,19 @@ body {
     background-color: #eccf26;
     display: inline-block;
 }
+
+.cradle .tech-badge {
+    margin: 10px;
+    padding: 5px 10px;
+    width: fit-content;
+    min-width: 80px;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    background-color: #40A4ED;
+    display: inline-block;
+}
+
 
 .tech-badge:hover {
     background-color: #5e0005;
