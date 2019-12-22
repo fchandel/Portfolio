@@ -31,14 +31,14 @@ class Spiker extends Component {
         </div>
         <div className='project-main cradle-container'>
           <div className='project-intro-details'>
-            <h3 className='heading-title center blue-color'>
-              Cradle
-              </h3>
+            <h1 className='heading-title center blue-color'>
+              CRADLE
+              </h1>
 
             <div className='project-description-main col-md-6 col-sm-12'>
               <p className='sub-heading'>
                 <a href="https://spikerapp.com/">Cradle</a> is a web and mobile application built for medical professionals
-                on the fields to manage, assist, and keep track of personel and patients who have been tested by the cradle device.
+                on the field to manage, assist, and keep track of personel and patients who have been tested by the cradle device.
                 </p>
             </div>
 
@@ -77,19 +77,19 @@ class Spiker extends Component {
               </p>
             </div>
 
-            <div className='white item-tools'>
-              <div className='border-box'>
-                <h2>Details</h2>
-                <p>Roles: Fullstack Developer</p>
-                <p>Duration: 3 months</p>
-                <p>Other members: <br />
-                  Brian Marwood <br />
-                  Correy See <br />
-                  Tony Trieu <br />
-                  Gabby <br />
-                  Josiah <br />
-                  Khang <br />
-                  Richard
+            <div className=' item-tools'>
+              <div className='border-box white'>
+                <p>Roles: Fullstack Developer <br />
+                  Duration: 3 months <br />
+                  Other members:</p>
+                <p className='members'>
+                  • Brian Marwood <br />
+                  • Correy See <br />
+                  • Tony Trieu <br />
+                  • Gabby <br />
+                  • Josiah <br />
+                  • Khang <br />
+                  • Richard
                 </p>
               </div>
             </div>
@@ -107,65 +107,77 @@ class Spiker extends Component {
 
         </div>
 
-        <div className='cradle-container'>
-          <h2><b>Background</b></h2>
+        <div className='cradle-container spacer'>
+          <h3>Background</h3>
+          <br />
+          <div className='background-section'>
+            <h4>Cradle Device</h4>
+            <p>
+              The Cradle deivice was created as an inexpensive hand held vital measurement
+              solution for low income areas to combat preventable maternal deaths by providing
+              an easy and effective way to monitor and detect early symptoms and issues.
+          </p>
+
+            <h4>Challanges</h4>
+            <p>
+              - Due to the manual nature of device, either forms are filled out
+                incorrectly or lost <br />
+              - Health workers at facilities don’t follow through on filling out forms <br />
+              - Forms are not returned to workers <br />
+              - There is no way to easy way to track and collect data from the forms <br />
+              - Stock piles of forms and papers that keep stacking up without being
+            properly processed. <br />
+            </p>
+
+            <h4>Our System</h4>
+            <p>
+              This is were our system comes in. Our system is designed to streamline this process while ensuring that
+              no data is lost, and incorrectly filled out. With our system, workers have access to the forms and data at
+              all times and are held accountable. They are able to create, and record new patients, fill out forms, at any
+              place, anytime. The dynamic report capabilities built into the system can sort, aggregate, and enable workers
+              to visualize data and see statistics that would have been extremely time consuming and most likely infeasible.
+          </p>
+          </div>
+
         </div>
-        <div className='cradle-container background-section'>
-          <h2>Cradle Device</h2>
-          <p>
-            The Cradle deivice was created as an inexpensive hand held vital measurement
-            solution for low income areas to combat preventable maternal deaths by providing
-            an easy and effective way to monitor and detect early symptoms and issues.
-          </p>
 
-          <h3>Challanges</h3>
-          <p>
-            - Due to the manual nature of device, either forms are filled out
-                incorrectly or lost
-            - Health workers at facilities don’t follow through on filling out forms
-            - Forms are not returned to workers,
-            - There is no way to easy way to track and collect data from the forms
-            - Stock piles of forms and papers that keep stacking up without being
-                properly processed.
-          </p>
-
-          <h3>Our System</h3>
-          <p>
-            This is were our system comes in. Our system is designed to streamline this process while ensuring that
-            no data is lost, and incorrectly filled out. With our systems, workers have access to the forms and data at
-            all times and are held accountable. The dynamic report capabilities built into the system can sort,
-            aggregate, and enable workers to visualize data and see statistics that would have been extremely time
-            consuming and most likely infeasible.
-          </p>
-        </div>
-
-        <div className='cradle-container'>
-          <h2><b>Process</b></h2>
+        <div className='cradle-container spacer'>
+          <h3>Process</h3>
 
           <div className='process-grid'>
             <div className='item-process'>
-              - Gathered user requirements via QA sessions with the client <br />
-              - Inspected purpose, domain, and given information to infer use
-                cases by breaking down said information <br />
+              <div className='border-process'>
+                Gathered <b>user requirements</b> via QA sessions with the client <br />
+                Inspected purpose, domain, and given information to infer <b>use
+                cases</b> by breaking down said information <br />
+              </div>
               <br />
-              - Analyzed user requirements and use cases to create CRC cards
-                  and rough database schema <br />
-              - CRC cards were further used to build out functional models and
-                  UML diagrams. <br />
+
+              <div className='border-process'>
+                Analyzed user requirements and use cases to create <b>CRC cards </b>
+                and rough <b>database schema</b> <br />
+                CRC cards were further used to build out functional models and
+                  <b> UML diagrams</b>. <br />
+              </div>
               <br />
-              - Created initial rough wireframes and sketches to give us an initial
+
+              <div className='border-process'>
+                Created initial rough <b>wireframes</b> and sketches to give us an initial
                   idea of pages and useful information. <br />
+                <br />
+                With the wireframes, models and database up, we proceeded to
+                implement pages and features. working from our <b>backlog</b>. <br />
+                Updating the backlog with new features as needed. <br />
+              </div>
               <br />
-              - With the wireframes, models and database up, we proceeded to
-                  implement pages and features. working from our backlog. <br />
-              Updating the backlog with new features as needed. <br />
-              <br />
-              - Manual Testing was done after the completion of each feature
+              <div className='border-process'>
+                Manual Testing was done after the completion of each feature
                   by team members before merging the merge request. <br />
-              - Area of Improvement: Suite of automatic test cases should have
+                Area of Improvement: Suite of automatic JUnit test cases should have
                   been set up to pass after each implementation of a feature. <br />
+              </div>
               <br />
-              - Refactoring done at the end of sprints. <br />
+
             </div>
 
             <div className='item-image-process'>
@@ -174,23 +186,43 @@ class Spiker extends Component {
           </div>
         </div>
 
-        <div className='cradle-container blue-color'>
+        <div className='cradle-container spacer'>
           <h2>Wireframes</h2>
-          <p>We started this project off with some basic wireframes to get an idea of how to lay out our UI. </p>
-          <Img fluid={this.props.data.imageThree.childImageSharp.fluid} />
+          <p>
+            We started this project off with some basic wireframes to get an idea of how to lay out our UI.
+            These were important and helpful in getting a clearer idea of how to order, display, and prioritize information.
+          </p>
+          <br />
+          <Img classname='image-shadow' fluid={this.props.data.wireframe.childImageSharp.fluid} />
         </div>
 
-        <svg width="1278" height="330" viewBox="0 0 1278 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M683 0V330H0C441 273 683 0 683 0Z" fill="#0099FF" />
-          <path d="M682 0V330H1365C924 273 682 0 682 0Z" fill="#0099FF" />
-        </svg>
+        <div className='center'>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,106.7C384,96,480,64,576,69.3C672,75,768,117,864,128C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg>
+
+        </div>
+
+
 
         <div className='svg-container blue-bg'>
-          <div className='white cradle-container'>
-            <h2 className='white'>End Product Mini Presentation</h2>
-            <p>Video demo of iteration 1 4 week sprint update.</p>
-            <Img fluid={this.props.data.placeholder.childImageSharp.fluid} />
+          <div className='cradle-container white'>
+
+            <div>
+              <h2 className='white'>End Product Mini Presentation</h2>
+              <p>Video demo of iteration 1 4 week sprint update.</p>
+              <Img fluid={this.props.data.placeholder.childImageSharp.fluid} />
+            </div>
+
+            <div className='gitlab-section center p-100'>
+              <h4 className='white'>Find code and running instructions at:</h4>
+              <div className='gitlab-logo'>
+                <Img fluid={this.props.data.gitlab.childImageSharp.fluid} />
+              </div>
+            </div>
+
           </div>
+
         </div>
 
 
@@ -219,13 +251,6 @@ export const pageQuery2 = graphql`
         }
       }
     },
-    imageThree: file(relativePath: { eq: "wireframe.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    },
     steps: file(relativePath: { eq: "steps.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
@@ -246,6 +271,20 @@ export const pageQuery2 = graphql`
           ...GatsbyImageSharpFluid
         }
       }
-    }
+    },
+    wireframe: file(relativePath: { eq: "wire.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    gitlab: file(relativePath: { eq: "gitlabLogo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
   }
 `;
