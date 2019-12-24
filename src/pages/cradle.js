@@ -27,36 +27,36 @@ class Spiker extends Component {
     return (
       <div className='cradle'>
         <div className='nav'>
-          <Link to="/">Back To Home</Link>
+          <Link to="/">Back Home</Link>
         </div>
         <div className='project-main cradle-container'>
+
           <div className='project-intro-details'>
             <h1 className='heading-title center blue-color'>
               CRADLE
-              </h1>
+            </h1>
 
             <div className='project-description-main col-md-6 col-sm-12'>
               <p className='sub-heading'>
                 <a href="https://spikerapp.com/">Cradle</a> is a web and mobile application built for medical professionals
                 on the field to manage, assist, and keep track of personel and patients who have been tested by the cradle device.
-                </p>
+              </p>
             </div>
 
             <div className='tech-badge-list'>
               <div className='tech-badge'>
                 Spring Boot
-                </div>
+              </div>
               <div className='tech-badge'>
                 ReactJs
-                </div>
+              </div>
               <div className='tech-badge'>
                 MongoDB
-                </div>
+              </div>
             </div>
-
           </div>
-        </div>
 
+        </div>
 
         <div className='wave-container'>
           <svg width="1440" height="332" viewBox="0 0 1440 332" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,11 +103,9 @@ class Spiker extends Component {
           <svg width="1440" height="374" viewBox="0 0 1440 374" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1469 149.6L1377.17 162.106C1285.33 174.144 1101.67 199.856 918 187C734.333 174.144 550.667 125.056 367 124.706C183.333 125.056 -0.333344 174.144 -92.1667 199.506L-184 224.4V3.8147e-05H-92.1667C-0.333344 3.8147e-05 183.333 3.8147e-05 367 3.8147e-05C550.667 3.8147e-05 734.333 3.8147e-05 918 3.8147e-05C1101.67 3.8147e-05 1285.33 3.8147e-05 1377.17 3.8147e-05H1469V149.6Z" fill="#0099FF" />
           </svg>
-
-
         </div>
 
-        <div className='cradle-container spacer'>
+        <div className='cradle-container spacer negative-margin'>
           <h3>Background</h3>
           <br />
           <div className='background-section'>
@@ -120,19 +118,18 @@ class Spiker extends Component {
 
             <h4>Challanges</h4>
             <p>
-              - Due to the manual nature of device, either forms are filled out
-                incorrectly or lost <br />
-              - Health workers at facilities don’t follow through on filling out forms <br />
-              - Forms are not returned to workers <br />
-              - There is no way to easy way to track and collect data from the forms <br />
-              - Stock piles of forms and papers that keep stacking up without being
-            properly processed. <br />
+              Due to the manual nature of device there were some issues that came up such as: <br />
+              • Forms are filled out incorrectly or lost <br />
+              • Health workers at facilities don’t follow through on filling out forms <br />
+              • Forms are not returned to workers <br />
+              • There is no way to easy way to track and collect data from the forms <br />
+              • Stock piles of forms and papers keep stacking up without being properly processed. <br />
             </p>
 
             <h4>Our System</h4>
             <p>
               This is were our system comes in. Our system is designed to streamline this process while ensuring that
-              no data is lost, and incorrectly filled out. With our system, workers have access to the forms and data at
+              the issues mentioned above and more are eliminated or mitigated. With our system, workers have access to the forms and data at
               all times and are held accountable. They are able to create, and record new patients, fill out forms, at any
               place, anytime. The dynamic report capabilities built into the system can sort, aggregate, and enable workers
               to visualize data and see statistics that would have been extremely time consuming and most likely infeasible.
@@ -180,9 +177,6 @@ class Spiker extends Component {
 
             </div>
 
-            <div className='item-image-process'>
-              <Img fluid={this.props.data.steps.childImageSharp.fluid} />
-            </div>
           </div>
         </div>
 
@@ -196,28 +190,45 @@ class Spiker extends Component {
           <Img classname='image-shadow' fluid={this.props.data.wireframe.childImageSharp.fluid} />
         </div>
 
-        <div className='center'>
+
+        <div className='cradle-container spacer'>
+          <h2>Responsibilities</h2>
+          <p>
+            I was responsible for developing certain key areas and features such as: <br /><br />
+            <ul>
+              <li>Worker Report Analysis and Generation (Front-end and Backend)</li>
+              <li>Login/signup functionality (Front-end and Backend)</li>
+              <li>Role management (Front-end and Backend)</li>
+              <li>Location management (Front-end and Backend)</li>
+              <li>UI updates alongside Tony Trieu, and Brian Marwood </li>
+              <li>and other features</li>
+            </ul>
+          </p>
+        </div>
+
+
+        <div className='wave center'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#0099ff" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,106.7C384,96,480,64,576,69.3C672,75,768,117,864,128C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
 
         </div>
 
-
-
         <div className='svg-container blue-bg'>
           <div className='cradle-container white'>
-
             <div>
               <h2 className='white'>End Product Mini Presentation</h2>
               <p>Video demo of iteration 1 4 week sprint update.</p>
-              <Img fluid={this.props.data.placeholder.childImageSharp.fluid} />
+              <iframe width="100%" height="500px" src="https://www.youtube-nocookie.com/embed/_R4ZQ5y2_HE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              {/* <Img fluid={this.props.data.placeholder.childImageSharp.fluid} /> */}
             </div>
 
             <div className='gitlab-section center p-100'>
               <h4 className='white'>Find code and running instructions at:</h4>
               <div className='gitlab-logo'>
-                <Img fluid={this.props.data.gitlab.childImageSharp.fluid} />
+                <a href='https://csil-git1.cs.surrey.sfu.ca/373-20197-Earth/cradleplatform'>
+                  <Img fluid={this.props.data.gitlab.childImageSharp.fluid} />
+                </a>
               </div>
             </div>
 
@@ -280,6 +291,13 @@ export const pageQuery2 = graphql`
       }
     },
     gitlab: file(relativePath: { eq: "gitlabLogo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    mockup: file(relativePath: { eq: "mockup.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid

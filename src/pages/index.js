@@ -88,7 +88,7 @@ class IndexPage extends Component {
 
         {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
         <div className='large-desktop'>
-          <h3 className='heading-title pb-0 center main-color p-100'><span className='accent-1'>P</span>rojects</h3>
+          <h3 className='heading-title pb-0 center main-color p-100'>Projects</h3>
           <div className='to-scew main-color-bg'>
 
             <div className='projects' >
@@ -156,7 +156,7 @@ class IndexPage extends Component {
 
           <div className='description-container'>
             <div className='description'>
-              <h3 className='heading-title main-color'><span className='accent-1'>A</span> brief intro</h3>
+              <h3 className='heading-title main-color'>A brief intro</h3>
               <div className='center margin-center col-md-8'>
               <Img className='image float-left' fluid={this.props.data.imageOne.childImageSharp.fluid} />
               <p className='bio body-font'>
@@ -169,7 +169,7 @@ class IndexPage extends Component {
           </div>
 
           <div className='skill-section large-desktop center p-100 '>
-            <h3 className='heading-title main-color'><span className='accent-1'>L</span>anguages & Frameworks I've worked with</h3>
+            <h3 className='heading-title main-color'>Languages & Frameworks I've worked with</h3>
             <div className='tech-badge-list'>
               <row className='tech-badge-list-row'>
 
