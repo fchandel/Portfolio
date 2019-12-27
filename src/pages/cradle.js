@@ -60,14 +60,14 @@ class Spiker extends Component {
 
         <div className='wave-container'>
           <svg width="1440" height="332" viewBox="0 0 1440 332" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 226.2L80 213.594C160 201.459 320 175.541 480 188.5C640 201.459 800 250.941 960 251.294C1120 250.941 1280 201.459 1360 175.894L1440 150.8V377H1360C1280 377 1120 377 960 377C800 377 640 377 480 377C320 377 160 377 80 377H0V226.2Z" fill="#0099FF" />
+            <path d="M0 226.2L80 213.594C160 201.459 320 175.541 480 188.5C640 201.459 800 250.941 960 251.294C1120 250.941 1280 201.459 1360 175.894L1440 150.8V377H1360C1280 377 1120 377 960 377C800 377 640 377 480 377C320 377 160 377 80 377H0V226.2Z" fill="#5e0005" />
           </svg>
 
           {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,64L1440,128L1440,320L0,320Z"></path></svg> */}
           {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L60,117.3C120,139,240,181,360,176C480,171,600,117,720,117.3C840,117,960,171,1080,192C1200,213,1320,203,1380,197.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> */}
         </div>
 
-        <div className='blue-bg '>
+        <div className='blue-bg alt-text'>
           <div className='cradle-container grid-container'>
             <div className='white item-overview'>
               <h2 className='white'>Overview</h2>
@@ -101,7 +101,7 @@ class Spiker extends Component {
 
         <div className='svg-container'>
           <svg width="1440" height="374" viewBox="0 0 1440 374" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1469 149.6L1377.17 162.106C1285.33 174.144 1101.67 199.856 918 187C734.333 174.144 550.667 125.056 367 124.706C183.333 125.056 -0.333344 174.144 -92.1667 199.506L-184 224.4V3.8147e-05H-92.1667C-0.333344 3.8147e-05 183.333 3.8147e-05 367 3.8147e-05C550.667 3.8147e-05 734.333 3.8147e-05 918 3.8147e-05C1101.67 3.8147e-05 1285.33 3.8147e-05 1377.17 3.8147e-05H1469V149.6Z" fill="#0099FF" />
+            <path d="M1469 149.6L1377.17 162.106C1285.33 174.144 1101.67 199.856 918 187C734.333 174.144 550.667 125.056 367 124.706C183.333 125.056 -0.333344 174.144 -92.1667 199.506L-184 224.4V3.8147e-05H-92.1667C-0.333344 3.8147e-05 183.333 3.8147e-05 367 3.8147e-05C550.667 3.8147e-05 734.333 3.8147e-05 918 3.8147e-05C1101.67 3.8147e-05 1285.33 3.8147e-05 1377.17 3.8147e-05H1469V149.6Z" fill="#5e0005" />
           </svg>
         </div>
 
@@ -144,33 +144,32 @@ class Spiker extends Component {
           <div className='process-grid'>
             <div className='item-process'>
               <div className='border-process'>
-                Gathered <b>user requirements</b> via QA sessions with the client <br />
-                Inspected purpose, domain, and given information to infer <b>use
+                • Gathered <b>user requirements</b> via QA sessions with the client <br />
+                • Inspected purpose, domain, and given information to infer <b>use
                 cases</b> by breaking down said information <br />
               </div>
               <br />
 
               <div className='border-process'>
-                Analyzed user requirements and use cases to create <b>CRC cards </b>
+                • Analyzed user requirements and use cases to create <b>CRC cards </b>
                 and rough <b>database schema</b> <br />
-                CRC cards were further used to build out functional models and
+                • CRC cards were further used to build out functional models and
                   <b> UML diagrams</b>. <br />
               </div>
               <br />
 
               <div className='border-process'>
-                Created initial rough <b>wireframes</b> and sketches to give us an initial
+                • Created initial rough <b>wireframes</b> and sketches to give us an initial
                   idea of pages and useful information. <br />
-                <br />
-                With the wireframes, models and database up, we proceeded to
+                • With the wireframes, models and database up, we proceeded to
                 implement pages and features. working from our <b>backlog</b>. <br />
-                Updating the backlog with new features as needed. <br />
+                • Updating the backlog with new features as needed. <br />
               </div>
               <br />
               <div className='border-process'>
-                Manual Testing was done after the completion of each feature
+                • Manual Testing was done after the completion of each feature
                   by team members before merging the merge request. <br />
-                Area of Improvement: Suite of automatic JUnit test cases should have
+                • Area of Improvement: Suite of automatic JUnit test cases should have
                   been set up to pass after each implementation of a feature. <br />
               </div>
               <br />
@@ -197,11 +196,11 @@ class Spiker extends Component {
             I was responsible for developing certain key areas and features such as: <br /><br />
             <ul>
               <li>Worker Report Analysis and Generation (Front-end and Backend)</li>
-              <li>Login/signup functionality (Front-end and Backend)</li>
-              <li>Role management (Front-end and Backend)</li>
+              <li>Login/signup flow and capabilities (Front-end and Backend)</li>
+              <li>Role management and role related functionalities (Front-end and Backend)</li>
               <li>Location management (Front-end and Backend)</li>
               <li>UI updates alongside Tony Trieu, and Brian Marwood </li>
-              <li>and other features</li>
+              <li>etc</li>
             </ul>
           </p>
         </div>
@@ -209,12 +208,12 @@ class Spiker extends Component {
 
         <div className='wave center'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0099ff" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,106.7C384,96,480,64,576,69.3C672,75,768,117,864,128C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path fill="#5e0005" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,106.7C384,96,480,64,576,69.3C672,75,768,117,864,128C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
 
         </div>
 
-        <div className='svg-container blue-bg'>
+        <div className='svg-container blue-bg alt-text'>
           <div className='cradle-container white'>
             <div>
               <h2 className='white'>End Product Mini Presentation</h2>

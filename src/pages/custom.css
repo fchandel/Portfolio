@@ -114,7 +114,9 @@ body {
 
 .cradle .main-font, h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
-    color: #0099FF;
+    /* color: #0099FF; */
+    color: #5e0005;
+
 }
 
 
@@ -163,12 +165,12 @@ h4 {
 }
 
 .projects {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* background-color: #5e0005; */
-    transform: skew(-80deg);
+    /* transform: skew(-80deg); */
     /* background-image: -webkit-linear-gradient(70deg, #5e0005 50%, #fdfdfd 50%); */
-    min-height: 500px;
+    /* min-height: 500px; */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -189,7 +191,7 @@ h4 {
     max-width: 450px;
     min-height: 250px;
     background: rgb(240, 240, 240);
-    border-bottom: 4px solid #eccf26 ;
+    /* border-bottom: 4px solid #eccf26 ; */
     padding: 60px !important;
     text-align: center;
     border-radius: 8px;
@@ -297,7 +299,7 @@ h4 {
 }
 
 .social a {
-    color: yellow !important;
+    color: #9e2a30 !important;
 }
 
 .description {
@@ -340,7 +342,8 @@ h4 {
 }
 
 .contact a {
-    color: yellow !important;
+    color: white !important;
+    text-transform: uppercase;
 }
 
 .project-intro-details {
@@ -367,11 +370,14 @@ h4 {
 }
 
 .blue-color {
-    color: #0099ff;
+    color: #5e0005;
+
+    /* color: #0099ff; */
 }
 
 .blue-bg {
-    background: #0099ff;
+    background-color: #5e0005;
+    /* background: #0099ff; */
 }
 
 .spiker .heading-title {
@@ -444,7 +450,7 @@ h4 {
     border-radius: 15px;
     color: white;
     font-size: 12px;
-    background-color: #eccf26;
+    background-color: #9e2a30;
     display: inline-block;
 }
 
@@ -456,7 +462,9 @@ h4 {
     border-radius: 15px;
     color: white;
     font-size: 12px;
-    background-color: #40A4ED;
+    /* background-color: #40A4ED; */
+    background-color: #9e2a30;
+
     display: inline-block;
 }
 
@@ -466,8 +474,23 @@ h4 {
 }
 
 .cradle .tech-badge:hover {
-    background-color: #3867ae;
+    /* background-color: #3867ae; */
+    background-color: #5e0005;
 }
+
+.cradle a {
+    color: #9e2a30;
+}
+
+
+.cradle .alt-text p, body {
+    color: rgb(230, 228, 228) !important;
+}
+
+.cradle p, body {
+    color: #838383 !important;
+}
+
 
 .tech-badge-list {
     margin: 0 auto;
@@ -492,8 +515,8 @@ h4 {
     /* border-bottom: 1px solid black; */
 }
 
-.nav a:hover {
-    border-bottom: 1px solid #3867ae;
+.cradle a:hover {
+    border-bottom: 1px solid #5e0005;
     /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg"); */
     /* background-position: bottom; */
     /* background-repeat: repeat-x; */
@@ -501,6 +524,7 @@ h4 {
     /* border-bottom: 0; */
     /* padding-bottom: .3em; */
     text-decoration: none;
+    color: #5e0005;
 }
 
 .project-list a:hover {
@@ -615,7 +639,7 @@ h4 {
     }
 
     .projects {
-        transform: skew(-70deg);
+        /* transform: skew(-70deg); */
     }
 
     .main-font {
@@ -671,7 +695,7 @@ h4 {
     }
 
     .projects {
-        transform: skew(-50deg);
+        /* transform: skew(-50deg); */
     }
 
     
