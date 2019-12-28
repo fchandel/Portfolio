@@ -118,11 +118,11 @@ class Spiker extends Component {
 
             <h4>Challanges</h4>
             <p>
-              Due to the manual nature of device there were some issues that came up such as: <br />
-              • Forms are filled out incorrectly or lost <br />
-              • Health workers at facilities don’t follow through on filling out forms <br />
-              • Forms are not returned to workers <br />
-              • There is no way to easy way to track and collect data from the forms <br />
+              Due to the manual nature of device there were some issues that came up such as: <br /> <br />
+              • Forms are filled out incorrectly or lost <br /> <br />
+              • Health workers at facilities don’t follow through on filling out forms <br /> <br /> 
+              • Forms are not returned to workers <br /> <br />
+              • There is no way to easy way to track and collect data from the forms <br /> <br />
               • Stock piles of forms and papers keep stacking up without being properly processed. <br />
             </p>
 
