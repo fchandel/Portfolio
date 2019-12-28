@@ -189,7 +189,7 @@ class IndexPage extends Component {
                 <b>C#</b>
               </div>
               <div className='tech-badge'>
-                <b>JaveScript</b>
+                <b>JavaScript</b>
               </div>
               <div className='tech-badge'>
                 <b>React Native</b>
