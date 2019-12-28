@@ -73,7 +73,7 @@ class Spiker extends Component {
               <h2 className='white'>Overview</h2>
               <p>This case study goes over in brief the web application side of this project as that was my area of assignment.
                   The Cradle web app was built from the ground up using Spring Boot, React, and MongoDB. Our team used Agile development and
-                  thus we had three 4 week sprints leading up to the final product. To skip to a video demonstration of the final product you can click here.
+                  thus we had three 4 week sprints leading up to the final product. To skip to a video demonstration of the final product you can click <a href="#video"><b>here</b></a>.
               </p>
             </div>
 
@@ -214,10 +214,10 @@ class Spiker extends Component {
         </div>
 
         <div className='svg-container blue-bg alt-text'>
-          <div className='cradle-container white'>
+          <div id="video" className='cradle-container white'>
             <div>
               <h2 className='white'>End Product Mini Presentation</h2>
-              <p>Video demo of iteration 1 4 week sprint update.</p>
+              <p>Video demo of final sprint update. Thanks to Brian Marwood for the voice over. </p>
               <iframe width="100%" height="500px" src="https://www.youtube-nocookie.com/embed/_R4ZQ5y2_HE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               {/* <Img fluid={this.props.data.placeholder.childImageSharp.fluid} /> */}
             </div>

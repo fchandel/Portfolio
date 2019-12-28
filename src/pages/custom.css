@@ -6,12 +6,8 @@
     background-color: #5e0005;
 }
 
-.accent-1 {
-    color: #eccf26;
-}
-
-.accent-1-bg {
-    color: #eccf26;
+.accent {
+    color: #9e2a30;
 }
 
 .landing {
@@ -30,9 +26,6 @@
 .item-process {
     grid-column-start: 1;
     grid-column-end: 2;
-
-    /* justify-self: center; */
-
 }
 
 .item-image-process {
@@ -49,7 +42,6 @@
 .item-overview {
     grid-column-start: 1;
     grid-column-end: 2;
-    /* padding-left: 60px; */
     justify-self: center;
 }
 
@@ -57,7 +49,6 @@
     grid-column-start: 3;
     grid-column-end: 4;
     margin-right: 30px;
-    /* max-width: 200px; */
     justify-self: center;
 }
 
@@ -69,7 +60,6 @@
     padding: 20px;
     background-color: #FAFAFA;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    /* border: 2px solid #5e0005 !important; */
     border-radius: 12px;
 }
 
@@ -88,7 +78,6 @@
     width: 100%;
 }
 
-
 .background-section {
     background-color: #FAFAFA;
     border-radius: 12px;
@@ -101,6 +90,7 @@
     padding: 20px;
     border: 2px solid white;
 }
+
 .main-canvas {
     height: 100vh;
 }
@@ -110,15 +100,10 @@ body {
     overflow-x: hidden;
 }
 
-
-
 .cradle .main-font, h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
-    /* color: #0099FF; */
     color: #5e0005;
-
 }
-
 
 .main-font, h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
@@ -167,10 +152,6 @@ h4 {
 .projects {
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background-color: #5e0005; */
-    /* transform: skew(-80deg); */
-    /* background-image: -webkit-linear-gradient(70deg, #5e0005 50%, #fdfdfd 50%); */
-    /* min-height: 500px; */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -183,6 +164,7 @@ h4 {
     font-size: 15px; 
     padding-top: 10px;
 }
+
 .hide {
     display: none;
 }
@@ -191,14 +173,13 @@ h4 {
     max-width: 450px;
     min-height: 250px;
     background: rgb(240, 240, 240);
-    /* border-bottom: 4px solid #eccf26 ; */
     padding: 60px !important;
     text-align: center;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin: 0 auto;
     margin-bottom: 40px;
-    transition: top ease 0.3s;
+    transition: top 0.3s;
     position: relative;
     top: 0;
 }
@@ -224,33 +205,17 @@ h4 {
     object-fit: contain;
 }
 
-
-
 .align-left {
     text-align: left !important;
 }
+
 .align-right {
     text-align: right;
 }
 
 .project-item:hover {
     top: -10px;
-}
-
-.orange {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(212, 20, 90) 0%, rgb(251, 176, 59) 100%) repeat scroll 0% 0%;
-}
-
-.blue {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(213, 133, 255) 0%, rgb(0, 255, 238) 100%) repeat scroll 0% 0%;
-}
-.green {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 146, 69) 0%, rgb(252, 238, 33) 100%) repeat scroll 0% 0%;
-}
-
-.red {
-    background: rgba(0, 0, 0, 0) linear-gradient(to left, rgb(121, 9, 9) 0%, rgb(110, 59, 251) 100%) repeat scroll 0% 0%;
-
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, rgb(214, 213, 213) 0%, rgb(248, 248, 248) 100%) repeat scroll 0% 0%;
 }
 
 .project-list {
@@ -380,11 +345,6 @@ h4 {
     /* background: #0099ff; */
 }
 
-.spiker .heading-title {
-    padding: 10px;
-    font-weight: normal !important;
-}
-
 .project-description-main {
     margin: 0 auto;
     border-left: 2px solid black;
@@ -482,6 +442,16 @@ h4 {
     color: #9e2a30;
 }
 
+.cradle .alt-text a {
+    color: white;
+}
+
+.cradle .alt-text a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
 
 .cradle .alt-text p, body {
     color: rgb(230, 228, 228) !important;
@@ -498,31 +468,8 @@ h4 {
     text-align: center;
 }
 
-.spiker a {
-    color: #5e0005 !important;
-}
-
-.spiker .project-description a:hover {
-    color: #eccf26 !important;
-    text-decoration: underline;
-}
-
-.spiker .project-description a {
-    color: #eccf26 !important;
-}
-
-.nav a {
-    /* border-bottom: 1px solid black; */
-}
-
 .cradle a:hover {
     border-bottom: 1px solid #5e0005;
-    /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg"); */
-    /* background-position: bottom; */
-    /* background-repeat: repeat-x; */
-    /* background-size: 20%; */
-    /* border-bottom: 0; */
-    /* padding-bottom: .3em; */
     text-decoration: none;
     color: #5e0005;
 }
