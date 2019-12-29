@@ -32,7 +32,7 @@ class Spiker extends Component {
         <div className='project-main cradle-container'>
 
           <div className='project-intro-details'>
-            <h1 className='heading-title center blue-color'>
+            <h1 className='main-title center blue-color'>
               CRADLE
             </h1>
 
