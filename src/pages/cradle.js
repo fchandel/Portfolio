@@ -59,7 +59,7 @@ class Spiker extends Component {
         </div>
 
         <div className='wave-container'>
-          <svg width="1440" height="332" viewBox="0 0 1440 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg  viewBox="0 0 1440 332" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 226.2L80 213.594C160 201.459 320 175.541 480 188.5C640 201.459 800 250.941 960 251.294C1120 250.941 1280 201.459 1360 175.894L1440 150.8V377H1360C1280 377 1120 377 960 377C800 377 640 377 480 377C320 377 160 377 80 377H0V226.2Z" fill="#5e0005" />
           </svg>
 
@@ -100,7 +100,7 @@ class Spiker extends Component {
         </div>
 
         <div className='svg-container'>
-          <svg width="1440" height="374" viewBox="0 0 1440 374" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 1440 374" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1469 149.6L1377.17 162.106C1285.33 174.144 1101.67 199.856 918 187C734.333 174.144 550.667 125.056 367 124.706C183.333 125.056 -0.333344 174.144 -92.1667 199.506L-184 224.4V3.8147e-05H-92.1667C-0.333344 3.8147e-05 183.333 3.8147e-05 367 3.8147e-05C550.667 3.8147e-05 734.333 3.8147e-05 918 3.8147e-05C1101.67 3.8147e-05 1285.33 3.8147e-05 1377.17 3.8147e-05H1469V149.6Z" fill="#5e0005" />
           </svg>
         </div>
