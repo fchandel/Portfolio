@@ -38,7 +38,7 @@ class Spiker extends Component {
 
             <div className='project-description-main col-md-6 col-sm-12'>
               <p className='sub-heading'>
-                <a href="https://spikerapp.com/">Cradle</a> is a web and mobile application built for medical professionals
+                <a href="https://csil-git1.cs.surrey.sfu.ca/373-20197-Earth/cradleplatform">Cradle</a> is a web and mobile application built for medical professionals
                 on the field to manage, assist, and keep track of personel and patients who have been tested by the cradle device.
               </p>
             </div>
