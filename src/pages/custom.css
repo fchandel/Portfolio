@@ -633,7 +633,7 @@ h4 {
 @media screen and (max-width: 600px) {
 
     .project-main {
-        height: 80vh;
+        height: 100vh;
     }
 
     .gitlab-logo {

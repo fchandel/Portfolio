@@ -84,7 +84,7 @@ class Spiker extends Component {
                   Other members:</p>
                 <p className='members'>
                   • Brian Marwood <br />
-                  • Correy See <br />
+                  • Corey See <br />
                   • Tony Trieu <br />
                   • Gabby <br />
                   • Josiah <br />
