@@ -218,7 +218,7 @@ class IndexPage extends Component {
           <br />
           <h3 className='heading-title center white'>Resume</h3>
           <p className='body-font'>
-            View my resume <a href='https://drive.google.com/file/d/1RGi4MG1F5GCHaZwEYV332PdjbqBqzaXV/view?usp=sharing'><b>here</b></a>
+            View my resume <a href='https://drive.google.com/file/d/1cb6vu_SrVHZB5uTKOVX23NQluM3F0UHk/view?usp=sharing'><b>here</b></a>
           </p>
         </div>
 
