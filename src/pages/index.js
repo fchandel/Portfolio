@@ -26,11 +26,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO title="Home" />
-
-        {/* <Parallax scrolling={true} ref={ref => (this.parallax = ref)} pages={2.5}> */}
         <div className='main-canvas'>
-          {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
-
           <Particles
             className='particles'
             params={{
@@ -73,7 +69,6 @@ class IndexPage extends Component {
               color: '#5e0005'
             }}
           />
-          {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
 
           <div className='landing main-color'>
 
@@ -81,24 +76,15 @@ class IndexPage extends Component {
             <p className='sub-heading'>I believe problems are like puzzles and I enjoy solving them through coding.</p>
             <div className='scroll-indicator'></div>
           </div>
-          {/* </ParallaxLayer> */}
-          {/* </ParallaxLayer> */}
         </div>
 
-
-
-        {/* <ParallaxLayer offset={0} speed={1} style={{ opacity: 1 }}> */}
         <div className='large-desktop'>
 
-          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5e0005" fill-opacity="1" d="M0,96L1440,256L1440,320L0,320Z"></path></svg> */}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5e0005" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,154.7C640,149,800,107,960,96C1120,85,1280,107,1360,117.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
           <div className='main-color-bg'>
             <h3 className='heading-title pb-0 center white'>Projects</h3>
 
-
-
             <div className='projects' >
-              {/* <ParallaxLayer offset={0} speed={0.5} style={{ opacity: 1 }}> */}
               <div className='project-list row'>
 
                 <div className='col-sm-12 col-md-6'>
@@ -126,12 +112,8 @@ class IndexPage extends Component {
 
 
               </div>
-              {/* </ParallaxLayer> */}
             </div>
           </div>
-          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5e0005" fill-opacity="1" d="M0,96L1440,288L1440,0L0,0Z"></path></svg> */}
-          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5e0005" fill-opacity="1" d="M0,32L80,32C160,32,320,32,480,48C640,64,800,96,960,117.3C1120,139,1280,149,1360,154.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg> */}
-
 
           <svg viewBox="0 0 1435 226" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1442 223.01L1361.89 207.081C1281.78 191.152 1121.56 159.293 961.333 164.57C801.111 170.245 640.889 212.059 480.667 223.01C320.444 233.962 160.222 212.059 80.1111 201.805L0.00012207 191.152V0H80.1111C160.222 0 320.444 0 480.667 0C640.889 0 801.111 0 961.333 0C1121.56 0 1281.78 0 1361.89 0H1442V223.01Z" fill="#5E0005" />
@@ -167,21 +149,8 @@ class IndexPage extends Component {
                 <b>Python</b>
               </div>
               <div className='tech-badge'>
-                <b>C++</b>
+                <b>ASP.Net</b>
               </div>
-              <div className='tech-badge'>
-                <b>Gatsby Js</b>
-              </div>
-              <div className='tech-badge'>
-                <b>PHP</b>
-              </div>
-              <div className='tech-badge'>
-                <b>CakePHP</b>
-              </div>
-            </row>
-
-            <row className='tech-badge-list-row'>
-
               <div className='tech-badge'>
                 <b>Java</b>
               </div>
@@ -194,11 +163,29 @@ class IndexPage extends Component {
               <div className='tech-badge'>
                 <b>React Native</b>
               </div>
+            </row>
+
+            <row className='tech-badge-list-row'>
+              <div className='tech-badge'>
+                <b>Gatsby Js</b>
+              </div>
+              <div className='tech-badge'>
+                <b>PHP</b>
+              </div>
+              <div className='tech-badge'>
+                <b>CakePHP</b>
+              </div>
               <div className='tech-badge'>
                 <b>Bootstrap</b>
               </div>
               <div className='tech-badge'>
                 <b>Spring Boot</b>
+              </div>
+              <div className='tech-badge'>
+                <b>C</b>
+              </div>
+              <div className='tech-badge'>
+                <b>C++</b>
               </div>
             </row>
 
@@ -218,7 +205,7 @@ class IndexPage extends Component {
           <br />
           <h3 className='heading-title center white'>Resume</h3>
           <p className='body-font'>
-            View my resume <a href='https://drive.google.com/file/d/1cb6vu_SrVHZB5uTKOVX23NQluM3F0UHk/view?usp=sharing'><b>here</b></a>
+            View my resume <a href='https://drive.google.com/file/d/1jtmkmwzhqSympjxVpe9P10sCOSq53LOg/view?usp=sharing'><b>here</b></a>
           </p>
         </div>
 
