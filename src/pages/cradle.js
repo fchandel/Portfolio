@@ -39,7 +39,7 @@ class Spiker extends Component {
             <div className='project-description-main col-md-6 col-sm-12'>
               <p className='sub-heading'>
                 <a href="https://csil-git1.cs.surrey.sfu.ca/373-20197-Earth/cradleplatform">Cradle</a> is a web and mobile application built for medical professionals
-                on the field to manage, assist, and keep track of personel and patients who have been tested by the cradle device.
+                on the field to manage, assist, and keep track of personnel and patients who have been tested by the cradle device.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ class Spiker extends Component {
         </div>
 
         <div className='wave-container'>
-          <svg  viewBox="0 0 1440 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 1440 332" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 226.2L80 213.594C160 201.459 320 175.541 480 188.5C640 201.459 800 250.941 960 251.294C1120 250.941 1280 201.459 1360 175.894L1440 150.8V377H1360C1280 377 1120 377 960 377C800 377 640 377 480 377C320 377 160 377 80 377H0V226.2Z" fill="#5e0005" />
           </svg>
 
@@ -108,33 +108,53 @@ class Spiker extends Component {
         <div className='cradle-container spacer negative-margin'>
           <h3>Background</h3>
           <br />
-          <div className='background-section'>
-            <h4>Cradle Device</h4>
-            <p>
-              The Cradle deivice was created as an inexpensive hand held vital measurement
-              solution for low income areas to combat preventable maternal deaths by providing
-              an easy and effective way to monitor and detect early symptoms and issues.
-          </p>
+          <div className='background-wrap'>
+            <div className='col-md-8 col-sm-12'>
+              <p className='para-wrap'>
+                The <a href="https://www.microlife.com/professional-products/watchbp-office/microlife-vsa">Cradle device</a> was created as an inexpensive hand held vital measurement
+                solution for low income areas to combat preventable maternal deaths.
+              </p>
+            </div>
+            <div className='col-md-4 col-sm-4 margin-center'>
+              <Img fluid={this.props.data.cradle.childImageSharp.fluid} />
+            </div>
+          </div>
+
+          <div className='spacer'>
 
             <h4>Challanges</h4>
-            <p>
-              Due to the manual nature of device there were some issues that came up such as: <br /> <br />
+            Due to the manual nature of device and process there were some issues that came up such as: <br /> <br />
+
+            {/* <div className='list-container'>
+              <div className="horizontal-list">
+                <h6 className="challange-item">Data Integrity</h6>
+                <h6 className="challange-item">Data Tracking</h6>
+                <h6 className="challange-item">Data Analysis</h6>
+                <h6 className="challange-item">Data Reliability</h6>
+                <h6 className="challange-item">Data Quality</h6>
+              </div>
+            </div>
+ */}
+
+            <p className="tab">
               • Forms are filled out incorrectly or lost <br /> <br />
-              • Health workers at facilities don’t follow through on filling out forms <br /> <br /> 
+              • Health workers at facilities don’t follow through on filling out forms <br /> <br />
               • Forms are not returned to workers <br /> <br />
               • There is no way to easy way to track and collect data from the forms <br /> <br />
               • Stock piles of forms and papers keep stacking up without being properly processed. <br />
             </p>
 
-            <h4>Our System</h4>
-            <p>
-              This is were our system comes in. Our system is designed to streamline this process while ensuring that
-              the issues mentioned above and more are eliminated or mitigated. With our system, workers have access to the forms and data at
-              all times and are held accountable. They are able to create, and record new patients, fill out forms, at any
-              place, anytime. The dynamic report capabilities built into the system can sort, aggregate, and enable workers
-              to visualize data and see statistics that would have been extremely time consuming and most likely infeasible.
-          </p>
+
           </div>
+
+          <h4>Our System</h4>
+          <p>
+            Our system is designed to streamline this process while ensuring that
+            the issues mentioned above and more are eliminated or mitigated. With our system, workers have access to the forms and data at
+            all times and are held accountable. They are able to create, and record new patients, fill out forms, at any
+            place, anytime. The dynamic report capabilities built into the system can sort, aggregate, and enable workers
+            to visualize data and see statistics that would have been extremely time consuming and most likely infeasible.
+            </p>
 
         </div>
 
@@ -193,15 +213,25 @@ class Spiker extends Component {
         <div className='cradle-container spacer'>
           <h2>Responsibilities</h2>
           <p>
-            I was responsible for developing certain key areas and features such as: <br /><br />
+            I worked on encrypting passwords, creating login & register functionality, and creating protected routes that require authentication based on the role assigned to a user.
+            <br/>
+            <br/>
+            To help abstract and simplify server calls, I also created a server proxy to help the team embed server calls effectively and efficiently. This allowed the members who were solely working on the front end to not need directions on how to interact with the server
+            but simply find the function they needed and call it.
+            <br/>
+            <br/>
+            In addition, I developed and designed the worker report analytics and generation components of the web app as well as handle proper role management throughout the app. Apart from the mentioned things, I also 
+            worked on UI updates, bug fixes and other dashboard features like user and assessment management/controls. 
+
+            {/* In addition I was responsible for developing certain key areas and features such as: <br /><br />
             <ul>
               <li>Worker Report Analysis and Generation (Front-end and Backend)</li>
-              <li>Login/signup flow and capabilities (Front-end and Backend)</li>
+              <li>Login/sign-up flow and capabilities (Front-end and Backend)</li>
               <li>Role management and role related functionalities (Front-end and Backend)</li>
               <li>Location management (Front-end and Backend)</li>
               <li>UI updates alongside Tony Trieu, and Brian Marwood </li>
               <li>etc</li>
-            </ul>
+            </ul> */}
           </p>
         </div>
 
@@ -303,5 +333,19 @@ export const pageQuery2 = graphql`
         }
       }
     },
+    cradle: file(relativePath: { eq: "cradle.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    question: file(relativePath: { eq: "question.svg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `;

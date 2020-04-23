@@ -100,7 +100,7 @@ class IndexPage extends Component {
                 </div>
 
                 <div className='col-sm-12 col-md-6'>
-                  <Link to="/">
+                  <Link to="#">
                     <div className='project-item main-color'>
                       <h3 className='project-title'>
                         Spiker (Coming Soon)

@@ -53,9 +53,13 @@
 }
 
 .spacer {
-    margin: 40px auto !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
 }
 
+.background-wrap {
+    display: flex;
+}
 .border-process {
     padding: 20px;
     background-color: #FAFAFA;
@@ -365,9 +369,46 @@ h4 {
 
 }
 
+.challange-item {
+    padding: 10px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    padding-left: 2em;
+}
+
+.horizontal-list {
+    margin: 0 auto;
+    display: inline-flex;
+    text-align: center;
+}
+
+.para-wrap {
+    padding-top: 15%;
+    width: 80%;
+}
+
+.col-md-8 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.col-md-8 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .cradle-container {
     max-width: 960px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -540,6 +581,15 @@ h4 {
 
 
 @media screen and (max-width: 800px) {
+
+    .background-wrap {
+        display: block;
+    }
+
+    .cradle-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
     .tech-badge-list {
         max-width: 300px;
